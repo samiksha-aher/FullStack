@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./logo.jpg);
+    background-size: cover ;
+    background-position: center;
+   
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px ;
+    padding-top: 10px;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 18px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+}
+
+.h1 {
+    font-size: 70px;
+}
+
+.p {
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:blueviolet;
+    color: white;
+}
+
+.btn1, .btn2 {
+    width: 100px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color:blueviolet;
+    color: white;
+}
+
+.btn2 {
+    background-color: transparent;
+}
