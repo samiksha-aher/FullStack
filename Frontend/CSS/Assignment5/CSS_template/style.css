@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    overflow: hidden;
 }
 
 header {
@@ -63,7 +62,7 @@ a {
     width: 200px;
     padding: 15px;
     text-align: center;
-    margin: 10px 10px;
+    margin: 10px 20px;
     font-weight: bold;
     border-radius: 20px;
     background-color:blueviolet;
@@ -83,4 +82,135 @@ a {
 
 .btn2 {
     background-color: transparent;
+}
+
+.div1 {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.border {
+    border-bottom: 3px solid black;
+    width: 100px;
+}
+.img1 {
+    width: 70pxpx;
+    height: 60px;
+    padding-top: 20px;
+}
+.caption {
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.caption h2 {
+    padding: 20px;
+}
+.item1 {
+    width: 24%;
+    background-color: blueviolet;
+}
+.cardmain {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 280px;
+}
+.btn-caption {
+    margin: 20px;
+    margin-left: 95px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.div2 {
+    margin-top: 25px;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div2 .border {
+    width: 400px;
+}
+.about {
+    display: flex;
+}
+.img-about {
+    object-fit: cover;
+    width: 350px;
+    height: 380px;
+}
+.div3 {
+    width: 49%;
+    padding: 40px;
+    font-size: 20px;
+}
+.div3 p {
+    margin-top: 20px;
+}
+.img-about-div {
+    width: 49%;
+}
+.btn-about {
+    padding-top: 30px;
+    margin-left: 45px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.div4 {
+    margin-top: 25px;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.div4 p {
+    margin-top: 15px;
+}
+
+.client-div {
+    display: flex;
+}
+.img-client {
+    object-fit: cover;
+    width: 200px;
+    height: 230px;
+    margin: 20px;
+}
+.img-client-div {
+    width: 49%;
+    padding: 40px;
+    font-size: 20px;
+}
+.div4 {
+    margin-top: 25px;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.div5 {
+    width: 49%;
+    padding: 40px;
+    font-size: 20px;
+}
+.div5 p {
+    margin-top: 20px;
 }
