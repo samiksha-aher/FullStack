@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Resto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Restaurant</h1>
+        <p>Delicious food, fresh ingredients!!</p>
+    </header>
+
+    <section id="menu">
+        <h2>Our Menu</h2><br>
+        <div class="menu-category">
+            <h3>Appetizers</h3>
+            <div class="menu-item">
+                <img src="./images/illustration/bruschetta.jpg" alt="Bruschetta">
+                <div class="item-details">
+                    <h4>Bruschetta</h4>
+                    <p>Toasted bread topped with tomatoes, basil, and olive oil.</p>
+                    <span class="price">$8.99</span>
+                </div>
+            </div>
+             <div class="menu-item">
+                <img src="./images/illustration/calamari.jpg" alt="Calamari">
+                <div class="item-details">
+                    <h4>Calamari</h4>
+                    <p>Crispy fried squid rings with marinara sauce.</p>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Main Courses</h3>
+            <div class="menu-item">
+                <img src="./images//illustration/sandwich.jpg" alt="sandwich">
+                <div class="item-details">
+                    <h4>Grilled Sandwich</h4>
+                    <p>Made with bread, butter, vegetables, chutney, cheese (optional) and ground spices, this is a super delicious and easy to make sandwich.</p>
+                    <span class="price">$5.99</span>
+                </div>
+            </div>
+             <div class="menu-item">
+                <img src="./images//illustration/burger.jpg" alt="burger">
+                <div class="item-details">
+                    <h4>Burger</h4>
+                    <p>It is a popular sandwich featuring a cooked patty, usually ground meat (like beef), served between sliced bread or a bun, often with toppings like lettuce, tomato, onion, cheese, pickles, or sauces.</p>
+                    <span class="price">$25.00</span>
+                </div>
+            </div>
+               <div class="menu-item">
+                <img src="./images//illustration/noodles.jpg" alt="noodles">
+                <div class="item-details">
+                    <h4>Noodles</h4>
+                    <p>Noodles are a type of food typically made from unleavened dough which is rolled flat and cut, stretched, or extruded into long strips or strings. </p>
+                    <span class="price">$15.99</span>
+                </div>
+            </div>
+               <div class="menu-item">
+                <img src="./images//illustration/pasta.jpg" alt="pasta">
+                <div class="item-details">
+                    <h4>White Sauce Pasta</h4>
+                    <p>It is a creamy, comforting dish featuring pasta tossed in a rich sauce made from butter, flour, and milk, often enhanced with garlic, herbs, and cheese like Parmesan for extra flavor, and can include sautéed veggies or chicken for a heartier meal.</p>
+                    <span class="price">$14.99</span>
+                </div>
+            </div>
+        </div>
+
+          <div class="menu-category">
+            <h3>Desserts</h3>
+            <div class="menu-item">
+                <img src="./images/illustration/tiramisu.jpg" alt="Tiramisu">
+                <div class="item-details">
+                    <h4>Tiramisu</h4>
+                    <p>Classic Italian dessert with coffee-soaked ladyfingers.</p>
+                    <span class="price">$10.99</span>
+                </div>
+            </div>
+             <div class="menu-item">
+                <img src="./images/illustration/ice-cream.jpg" alt="ice-cream">
+                <div class="item-details">
+                    <h4>Ice Cream</h4>
+                    <p>It is a frozen dessert typically made from milk or cream that has been flavoured with a sweetener, either sugar or an alternative, and a spice.</p>
+                    <span class="price">$6.99</span>
+                </div>
+            </div>
+              <div class="menu-item">
+                <img src="./images/illustration/brownies.jpg" alt="brownies">
+                <div class="item-details">
+                    <h4>Brownies</h4>
+                    <p>A chocolate brownie, or simply a brownie, is a chocolate baked dessert bar.</p>
+                    <span class="price">$8.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="orders">
+        <h2>Place Your Order</h2>
+        <form action="#" method="post">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required>
+             <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="item">Select Item: </label>
+            <select id="item" name="item" required>
+                <option value="">Choose an item</option>
+                <option value="bruschetta">Bruschetta - $8.99</option>
+                <option value="calamari">Calamari - $12.99</option>
+                <option value="sandwich">Grilled Sandwich - $5.99</option>
+                <option value="burger">Burger - $25.00</option>
+                <option value="noodels">Noodles - $15.99</option>
+                <option value="pasta">White Sauce Pasta - $14.99</option>
+                <option value="tiramisu">Tiramisu - $10.00</option>
+                <option value="ice-cream">Ice Cream - $6.99</option>
+                <option value="brownies">Brownies - $8.99</option>
+            </select>
+
+            <label for="quantity">Quantity: </label>
+            <input type="number" name="quantity" id="quantity" min="1" required>
+            <label for="special-requests">Special Requests:</label>
+            <textarea id="special-requests" name="special-requests"></textarea>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Our Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
