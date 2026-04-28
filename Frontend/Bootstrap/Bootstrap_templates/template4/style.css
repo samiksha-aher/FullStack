@@ -1,0 +1,46 @@
+/* Custom Fonts (use Google Fonts for 'Poppins' or similar) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background: url(./images/background/bg.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navigation */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Cards in Services */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+}

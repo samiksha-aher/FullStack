@@ -1,0 +1,64 @@
+ body {
+     font-family: 'Arial', sans-serif;
+ }
+
+ .hero {
+     background: url('./images/background/h1_hero.webp') no-repeat center center;
+     background-size: cover;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     text-align: center;
+ }
+
+ .hero h1 {
+     font-size: 4rem;
+     margin-bottom: 1rem;
+ }
+
+ .hero p {
+     font-size: 1.5rem;
+ }
+
+ .services .card {
+     border: none;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s;
+ }
+
+ .services .card:hover {
+     transform: translateY(-10px);
+ }
+
+ .footer {
+     background-color: #343a40;
+     color: white;
+     padding: 2rem 0;
+ }
+
+ .navbar-brand {
+     font-weight: bold;
+ }
+
+ .a {
+     color: #161e46;
+     font-size: 16px;
+     font-weight: 500;
+     display: block;
+     margin-bottom: 20px;
+     margin-top: 40px;
+     text-decoration: none;
+ }
+
+ .btn1 {
+     background-color: orangered;
+     color: white;
+     font-weight: bold;
+     padding: 10px;
+     width: 125px;
+     border-radius: 5px;
+     margin-top: 30px;
+     margin-bottom: 10px;
+ }

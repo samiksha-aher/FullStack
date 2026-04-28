@@ -1,0 +1,46 @@
+/* Custom Fonts (use Google Fonts for 'Roboto' or similar) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background: url(./images/background/bg.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Navigation */
+.navbar {
+    background-color: rgba(0, 123, 255, 0.9) !important;
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+}
